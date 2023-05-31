@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto' , sans-serif;
+}
+.header{
+    min-height: 80vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(kosp.jpeg);
+    background-size:cover   ;
+    background-position: center;
+    position:relative;
+    text-align: center;
+    }
+    .header h2{
+        color: white;
+        font-size: 65px;
+    }
+    .header1{
+        min-height: 80vh;
+        width: 100%;
+        background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(cat7.jpeg);
+        background-size:cover   ;
+        background-position: center;
+        position:relative;
+        text-align: center;
+        }
+        .header1 h2{
+            color: white;
+            font-size: 65px;
+        }
+    .body{
+        text-align: center;
+    }
+    .lo{
+        text-align: left;
+    }
+    .sum{
+        text-align: left;
+    }
+    .body h5{
+        font-size: 15px;
+    }
+    .body1{
+        text-align: center;
+    }
+    .body1 h5{
+        font-size: 15px;
+    }
+    nav{
+        display: flex;
+        padding: 0 20px;
+        justify-content: space-between;
+        align-items: center;
+        height: 50px;
+    }
+    nav img{
+        width: 100px;
+    }
+    .nav-links{
+        flex: 1;
+        text-align: right;
+    }
+    .nav-links ul li{
+        list-style: none;
+        display: inline-block;
+        padding: 8px 12px;
+        position: relative;
+    }
+    .nav-links ul li a{
+        color: white;
+        text-decoration: none;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .nav-links ul li::after{
+    content: "";
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+    }
+    .nav-links ul li:hover::after{
+        width:100%;
+    }
+    .foots{
+        width: auto;
+        text-align:center;
+        padding: 20px 0px;
+        background-color: black;
+        background-size: auto;   
+        }
+        .foots h6{
+            color: #fff;
+        }
+ .population h2{
+    font-size: 64%;
+ }
+ /* Mobile devices */
+@media only screen and (max-width: 767px) {
+    .header h2,
+    .header1 h2 {
+        font-size: 40px;
+    }
+
+    .population h2 {
+        font-size: 48px;
+    }
+}
+
+/* Tablets and small desktops */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .header h2,
+    .header1 h2 {
+        font-size: 55px;
+    }
+
+    .population h2 {
+        font-size: 56px;
+    }
+}

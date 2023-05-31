@@ -1,0 +1,286 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto' , sans-serif;
+}
+.header{
+    min-height: 80vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(cat7.jpeg);
+    background-size:cover   ;
+    background-position: center;
+    position:relative;
+    text-align: center;
+    }
+    .header p{
+        color: #faf7f7;
+    }
+    .header h2{
+        color: white;
+        font-size: 65px;
+    }
+    .header1{
+        min-height: 80vh;
+        width: 100%;
+        background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(th1.jpeg);
+        background-size:cover   ;
+        background-position: center;
+        position:relative;
+        text-align: center;
+        }
+        .header1 p{
+            color: #faf7f7;
+        }
+    .header1 h2{
+        color: white;
+        font-size: 65px;
+    }
+    .header2{
+        min-height: 80vh;
+        width: 100%;
+        background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(o1.jpeg);
+        background-size:cover   ;
+        background-position: center;
+        position:relative;
+        text-align: center;
+        }
+    .header2 h2{
+        color: #faf7f7;
+        font-size: 65px;
+    }
+    .header3{
+        min-height: 80vh;
+        width: 100%;
+        background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(dn1.jpg);
+        background-size:cover   ;
+        background-position: center;
+        position:relative;
+        text-align: center;
+        }
+        .header3 h2{
+            color: white;
+            font-size: 65px;
+        }
+    .card{
+        width: 300px;
+        height: 300px;
+        display: inline-block;
+        border-radius: 10px;
+        padding: 15px 25px;
+        box-sizing: border-box;
+        cursor: pointer;
+        margin: 30px 60px;
+        background-position: left;
+        background-image: url(images/t1.jpg);
+        background-size: cover;
+        transition: transform 0.5s;
+    }
+    .card h5{
+        color: black;
+        font-size: 18px;
+    }
+    .card1{
+        background-image: url(cat3.jpeg);
+    }
+    .card2{
+        background-image: url(cat2.jpeg);
+    }
+    .card3{
+        background-image: url(cat4.jpeg);
+    }
+    .card4{
+        background-image: url(cat6.jpeg);
+    }
+    .card5{
+        background-image: url(cat5.jpeg);
+    }
+    .card6{
+        background-image: url(con1.jpg);
+    }
+    .card7{
+        background-image: url(cat5.jpeg);
+    }
+    .card:hover{
+        transform: translateY(-10px);
+    }
+    nav{
+        display: flex;
+        padding: 0 20px;
+        justify-content: space-between;
+        align-items: center;
+        height: 50px;
+    }
+    nav img{
+        width: 100px;
+    }
+    .nav-links{
+        flex: 1;
+        text-align: right;
+    }
+    .nav-links ul li{
+        list-style: none;
+        display: inline-block;
+        padding: 8px 12px;
+        position: relative;
+    }
+    .nav-links ul li a{
+        color: white;
+        text-decoration: none;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .nav-links ul li::after{
+    content: "";
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+    }
+    .nav-links ul li:hover::after{
+        width:100%;
+    }
+    .text-box{
+    width: 90%;
+    color:#fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    }
+    .foots{
+        width: auto;
+        text-align:center;
+        padding: 20px 0px;
+        background-color: black;
+        background-size: auto;   
+        }
+        .foots h6{
+            color: #fff;
+        }
+    .bodysub{
+        text-align: center;
+    }
+.reason{
+   background-color: rgb(126, 136, 133);
+}
+.location{
+    background-color:rgb(126, 136, 133) ;
+    text-align: center;
+}
+.col{
+    text-align: center;
+}
+.location h6{
+    font-size: 15px;
+}
+.top1{
+    text-align: center;
+}
+.table{
+    margin: 40px;
+    font-family: 'roboto',sans-serif;
+    font-weight: 1000;
+
+}
+.table h1{
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 50px;
+
+}
+.tablecat{
+    max-width: 900px;
+    border: 1px solid #ec918e;
+    background-color: #efefef33;
+    padding: 15px;
+    overflow: auto;
+    margin: auto;
+    border-radius: 4px;
+}
+table{
+    width: 100%;
+    font-size: 13px;
+    color: #444;
+    white-space: nowrap;
+}
+table>thead{
+    background-color: #272929;
+    color: #fff;
+}
+table>thead th{
+    padding: 15px;
+}
+table th,table td{
+    border: 1px solid #00000017;
+    text-align: center;
+}
+table>tbody>tr>td>img{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #fff;
+    box-shadow: 0 2px 6px #0003;
+}
+table>tbody>tr{
+    background-color: #fff;
+    transition: 0.3s ease-in-out;
+}
+table>tbody>tr:nth-child(even){
+    background-color: rgb(238,238,238);
+}
+table>tbody>tr:hover{
+    filter: drop-shadow(0px 2px 6px #0002);
+}
+.br{
+    text-align: center;
+}
+/* Responsive Media Queries */
+
+/* Mobile devices */
+@media screen and (max-width: 767px) {
+    .card {
+        width: 90%;
+        margin: 30px auto;
+    }
+
+    .header h2,
+    .header1 h2,
+    .header2 h2,
+    .header3 h2 {
+        font-size: 40px;
+    }
+    .body{
+        font-size: 13%;
+    }
+    .bodysub{
+        font-size: 13%;
+    }
+    .tablecat {
+        max-width: 100%;
+        overflow-x: auto;
+    }
+
+    table {
+        font-size: 12px;
+    }
+}
+
+/* Tablets and small desktops */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .card {
+        width: 45%;
+        margin: 30px 2.5%;
+    }
+    .tablecat {
+        max-width: 900px;
+    }
+
+    table {
+        font-size: 14px;
+    }
+}
